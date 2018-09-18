@@ -1,0 +1,127 @@
+{
+    "logChannelName": "karen-ai-log",
+
+    "exempt":
+    [
+        {"comment": "Merlin"},
+        "172734241136836608",
+        {"comment": "Nathaniel"},
+        "272582331565342721",
+        {"comment": "Dallas"},
+        "255109013383938048",
+        {"comment": "Jonathan"},
+        "434934489702072330"
+    ],
+
+    "troublePhrases":
+    [
+
+        {"phrase": "depressing", "magnitude":1},
+        {"phrase": "lonely", "magnitude":1},
+        {"phrase": "loneliness", "magnitude":1},
+        {"phrase": "medication", "magnitude":1},
+        {"phrase": "meds", "magnitude":1},
+        {"phrase": "abuse", "magnitude":1},
+        {"phrase": "neglect", "magnitude":1},
+        {"phrase": "end it", "magnitude":1},
+        {"phrase": "overwhelming", "magnitude":1},
+        {"phrase": "failure", "magnitude":1},
+        {"phrase": "run away", "magnitude":1},
+        {"phrase": "running away", "magnitude":1},
+        {"phrase": "pain", "magnitude":1},
+        {"phrase": "struggle", "magnitude":1},
+        {"phrase": "struggling", "magnitude":1},
+        {"phrase": "hopeless", "magnitude":1},
+        {"phrase": "burden", "magnitude":1},
+        {"phrase": "therapy", "magnitude":1},
+
+        {"phrase": "depressed", "magnitude":2},
+        {"phrase": "antidepressant", "magnitude":2},
+        {"phrase": "cry for help", "magnitude":2},
+        {"phrase": "depression", "magnitude":2},
+        {"phrase": "kms", "magnitude":2},
+        {"phrase": "tortur", "magnitude":2},
+
+        {"phrase": "suicidal", "magnitude":4},
+        {"phrase": "suicide", "magnitude":4},
+        {"phrase": "im a failure", "magnitude":4},
+        {"phrase": "hate myself", "magnitude":4},
+        {"phrase": "hating myself", "magnitude":4},
+        {"phrase": "cant take it anymore", "magnitude":4},
+        {"phrase": "cant take this anymore", "magnitude":4},
+        {"phrase": "cant do this anymore", "magnitude":4},
+        {"phrase": "cant do it anymore", "magnitude":4},
+        {"phrase": "attempted suicide", "magnitude":4},
+        {"phrase": "suicide attempt", "magnitude":4},
+        {"phrase": "attempt suicide", "magnitude":4},
+        {"phrase": "my depression", "magnitude":4},
+        {"phrase": "my antidepressant", "magnitude":4},
+        {"phrase": "my abuse", "magnitude":4},
+        {"phrase": "self harm", "magnitude":4},
+        {"phrase": "selfharm", "magnitude":4},
+        {"phrase": "mental pain", "magnitude":4},
+        
+        {"phrase": "want to die", "magnitude":6},
+        {"phrase": "wanna die", "magnitude":6},
+        {"phrase": "suicide note", "magnitude":6},
+        {"phrase": "end my pain", "magnitude":6},
+        {"phrase": "end the pain", "magnitude":6},
+        {"phrase": "end this pain", "magnitude":6},
+        
+        {"phrase": "kill myself", "magnitude":8},
+        {"phrase": "kill my self", "magnitude":8},
+        {"phrase": "end my life", "magnitude":8},
+        {"phrase": "take my life", "magnitude":8},
+        {"phrase": "slit my wrist", "magnitude":8},
+        {"phrase": "cutting myself", "magnitude":8},
+
+        {"phrase": "killing myself", "magnitude":16},
+        {"phrase": "im suicidal", "magnitude":16},
+        {"phrase": "i am suicidal", "magnitude":16},
+        {"phrase": "killed myself", "magnitude":16},
+        {"phrase": "hang myself", "magnitude":16},
+        {"phrase": "shoot myself", "magnitude":16},
+        {"phrase": "take my own life", "magnitude":16},
+        {"phrase": "killing myself tonight", "magnitude":16},
+        
+
+        {"phrase": "my suicide note", "magnitude":32}
+
+    ],
+
+    "troubleMultipliers":
+    [
+        {"phrase": "lol", "multiplier":0.8},
+        {"phrase": "nigger", "multiplier":0.8},
+        {"phrase": "jk", "multiplier":0.8},
+
+        {"phrase": "hell", "multiplier":1.2},
+        {"phrase": "damn", "multiplier":1.2},
+        {"phrase": "fuck", "multiplier":1.2},
+        {"phrase": "shit", "multiplier":1.2},
+        {"phrase": "god", "multiplier":1.2},
+        {"phrase": "jesus", "multiplier":1.2},
+        {"phrase": "sorry", "multiplier":1.2},
+
+        {"phrase": "decision", "multiplier":1.3},
+        {"phrase": "future", "multiplier":1.3},
+
+        {"phrase": "want to", "multiplier":1.5},
+        {"phrase": "wanna", "multiplier":1.5},
+
+        {"phrase": "feeling", "multiplier": 1.7},
+        {"phrase": "feel like", "multiplier": 1.7},
+        
+        {"phrase": "going to", "multiplier":1.8},
+        {"phrase": "gonna", "multiplier":1.8},
+        {"phrase": "about to", "multiplier":1.8},
+        {"phrase": "im", "multiplier":1.8},
+        {"phrase": "i am", "multiplier":1.8},
+
+        {"phrase": "gun", "multiplier":2},
+        {"phrase": "noose", "multiplier":2},
+        {"phrase": "overdose", "multiplier":2}
+
+        
+    ]
+}

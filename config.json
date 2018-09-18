@@ -1,0 +1,24 @@
+{
+    "token" : "*",
+    "ytkey" : "*",
+
+    "prefix" : "!",
+
+    "homeGuildID" : "*",
+    "logChannelName" : "*",
+    "msgChannelName" : "*",
+    "dmChannelName": "*",
+
+    "ownerID": "*",
+
+    "privileged": 
+        [
+            {"comment": "Name"},
+            "ID"
+
+        ],
+
+    "muted" : [
+        "ID"
+    ]
+}
